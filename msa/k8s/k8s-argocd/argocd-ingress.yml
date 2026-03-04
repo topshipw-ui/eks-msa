@@ -10,7 +10,7 @@ spec:
   tls:
   - hosts:
       - argo.j1n00.click
-    secretName: argo--j1n00-click-tls
+    secretName: argo-j1n00-click-tls
   rules:
   - host: argo.j1n00.click
     http:
