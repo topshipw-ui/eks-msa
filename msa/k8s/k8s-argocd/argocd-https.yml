@@ -2,7 +2,7 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: argo-aws-esk-com-tls
+  name: argo-j1n00-click-tls
   namespace: argocd
 spec:
   secretName: argo-j1n00-click-tls
