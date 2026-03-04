@@ -10,11 +10,11 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - prometheus.aws-esk.com
-    - grafana.aws-esk.com
-    secretName: monitoring-aws-esk-com-tls
+    - prometheus.j1n00.click
+    - grafana.j1n00.click
+    secretName: monitoring-j1n00-click-tls
   rules:
-  - host: prometheus.aws-esk.com
+  - host: prometheus.j1n00.click
     http:
       paths:
       - path: /
@@ -25,7 +25,7 @@ spec:
             port:
               number: 9090
 
-  - host: grafana.aws-esk.com
+  - host: grafana.j1n00.click
     http:
       paths:
       - path: /
